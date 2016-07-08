@@ -15,6 +15,8 @@
 		F3692A141D2F875D00BA8F75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3692A121D2F875D00BA8F75 /* LaunchScreen.storyboard */; };
 		F3692A1F1D2F875D00BA8F75 /* VDImageZoomDraggableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3692A1E1D2F875D00BA8F75 /* VDImageZoomDraggableTests.swift */; };
 		F3692A2A1D2F875E00BA8F75 /* VDImageZoomDraggableUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3692A291D2F875E00BA8F75 /* VDImageZoomDraggableUITests.swift */; };
+		F3692A3A1D2F87C700BA8F75 /* VDImageZoomDraggable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3692A391D2F87C700BA8F75 /* VDImageZoomDraggable.swift */; };
+		F3692A3C1D2F8BE800BA8F75 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3692A3B1D2F8BE800BA8F75 /* Media.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		F3692A251D2F875D00BA8F75 /* VDImageZoomDraggableUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VDImageZoomDraggableUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3692A291D2F875E00BA8F75 /* VDImageZoomDraggableUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VDImageZoomDraggableUITests.swift; sourceTree = "<group>"; };
 		F3692A2B1D2F875E00BA8F75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F3692A391D2F87C700BA8F75 /* VDImageZoomDraggable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VDImageZoomDraggable.swift; sourceTree = "<group>"; };
+		F3692A3B1D2F8BE800BA8F75 /* Media.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Media.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		F36929FA1D2F875C00BA8F75 = {
 			isa = PBXGroup;
 			children = (
+				F3692A3B1D2F8BE800BA8F75 /* Media.xcassets */,
 				F3692A051D2F875C00BA8F75 /* VDImageZoomDraggable */,
 				F3692A1D1D2F875D00BA8F75 /* VDImageZoomDraggableTests */,
 				F3692A281D2F875E00BA8F75 /* VDImageZoomDraggableUITests */,
@@ -106,6 +111,7 @@
 				F3692A121D2F875D00BA8F75 /* LaunchScreen.storyboard */,
 				F3692A151D2F875D00BA8F75 /* Info.plist */,
 				F3692A0D1D2F875D00BA8F75 /* VDImageZoomDraggable.xcdatamodeld */,
+				F3692A391D2F87C700BA8F75 /* VDImageZoomDraggable.swift */,
 			);
 			path = VDImageZoomDraggable;
 			sourceTree = "<group>";
@@ -196,6 +202,7 @@
 				TargetAttributes = {
 					F3692A021D2F875C00BA8F75 = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 83XB829S3X;
 					};
 					F3692A191D2F875D00BA8F75 = {
 						CreatedOnToolsVersion = 7.2;
@@ -234,6 +241,7 @@
 			files = (
 				F3692A141D2F875D00BA8F75 /* LaunchScreen.storyboard in Resources */,
 				F3692A111D2F875D00BA8F75 /* Assets.xcassets in Resources */,
+				F3692A3C1D2F8BE800BA8F75 /* Media.xcassets in Resources */,
 				F3692A0C1D2F875C00BA8F75 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3692A3A1D2F87C700BA8F75 /* VDImageZoomDraggable.swift in Sources */,
 				F3692A0F1D2F875D00BA8F75 /* VDImageZoomDraggable.xcdatamodeld in Sources */,
 				F3692A091D2F875C00BA8F75 /* ViewController.swift in Sources */,
 				F3692A071D2F875C00BA8F75 /* AppDelegate.swift in Sources */,
@@ -403,9 +412,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = VDImageZoomDraggable/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.org.VDImageZoomDraggable;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.fly2kart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -414,9 +426,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = VDImageZoomDraggable/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.org.VDImageZoomDraggable;
+				PRODUCT_BUNDLE_IDENTIFIER = com.app.fly2kart;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
