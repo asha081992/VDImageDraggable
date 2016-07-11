@@ -10,7 +10,6 @@
 		F3692A071D2F875C00BA8F75 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3692A061D2F875C00BA8F75 /* AppDelegate.swift */; };
 		F3692A091D2F875C00BA8F75 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3692A081D2F875C00BA8F75 /* ViewController.swift */; };
 		F3692A0C1D2F875C00BA8F75 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3692A0A1D2F875C00BA8F75 /* Main.storyboard */; };
-		F3692A0F1D2F875D00BA8F75 /* VDImageZoomDraggable.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F3692A0D1D2F875D00BA8F75 /* VDImageZoomDraggable.xcdatamodeld */; };
 		F3692A111D2F875D00BA8F75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3692A101D2F875D00BA8F75 /* Assets.xcassets */; };
 		F3692A141D2F875D00BA8F75 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3692A121D2F875D00BA8F75 /* LaunchScreen.storyboard */; };
 		F3692A1F1D2F875D00BA8F75 /* VDImageZoomDraggableTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3692A1E1D2F875D00BA8F75 /* VDImageZoomDraggableTests.swift */; };
@@ -41,7 +40,6 @@
 		F3692A061D2F875C00BA8F75 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3692A081D2F875C00BA8F75 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F3692A0B1D2F875C00BA8F75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F3692A0E1D2F875D00BA8F75 /* VDImageZoomDraggable.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = VDImageZoomDraggable.xcdatamodel; sourceTree = "<group>"; };
 		F3692A101D2F875D00BA8F75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F3692A131D2F875D00BA8F75 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F3692A151D2F875D00BA8F75 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -110,7 +108,6 @@
 				F3692A101D2F875D00BA8F75 /* Assets.xcassets */,
 				F3692A121D2F875D00BA8F75 /* LaunchScreen.storyboard */,
 				F3692A151D2F875D00BA8F75 /* Info.plist */,
-				F3692A0D1D2F875D00BA8F75 /* VDImageZoomDraggable.xcdatamodeld */,
 				F3692A391D2F87C700BA8F75 /* VDImageZoomDraggable.swift */,
 			);
 			path = VDImageZoomDraggable;
@@ -268,7 +265,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F3692A3A1D2F87C700BA8F75 /* VDImageZoomDraggable.swift in Sources */,
-				F3692A0F1D2F875D00BA8F75 /* VDImageZoomDraggable.xcdatamodeld in Sources */,
 				F3692A091D2F875C00BA8F75 /* ViewController.swift in Sources */,
 				F3692A071D2F875C00BA8F75 /* AppDelegate.swift in Sources */,
 			);
@@ -503,6 +499,7 @@
 				F3692A301D2F875E00BA8F75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3692A311D2F875E00BA8F75 /* Build configuration list for PBXNativeTarget "VDImageZoomDraggableTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +508,7 @@
 				F3692A331D2F875E00BA8F75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F3692A341D2F875E00BA8F75 /* Build configuration list for PBXNativeTarget "VDImageZoomDraggableUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,21 +517,9 @@
 				F3692A361D2F875E00BA8F75 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		F3692A0D1D2F875D00BA8F75 /* VDImageZoomDraggable.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				F3692A0E1D2F875D00BA8F75 /* VDImageZoomDraggable.xcdatamodel */,
-			);
-			currentVersion = F3692A0E1D2F875D00BA8F75 /* VDImageZoomDraggable.xcdatamodel */;
-			path = VDImageZoomDraggable.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = F36929FB1D2F875C00BA8F75 /* Project object */;
 }
